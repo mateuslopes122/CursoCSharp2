@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-
 using CursoCSharp.Fundamentos;
+using CursoCSharp.EstruturaDeControle;
 
 namespace CursoCSharp {
     class Program {
@@ -12,7 +12,14 @@ namespace CursoCSharp {
                 {"Notação Ponto - Fundamentos ",NotacaoPonto.Executar },
                 {"Lendo Dados - Fundamentos", LendoDados.Executar },
                 {"Formatando Números - Fundamentos ",FormatandoNumeros.Executar},
-                {"Operadores Aritméticos - Fundamentos", OperadoresAritmeticos.Executar }
+                {"Operadores Aritméticos - Fundamentos", OperadoresAritmeticos.Executar },
+                {"Atividade1 - Fundamentos", Atividade1.Executar },
+                {"Atividade2 - Fundamentos", Atividade2.Executar },
+                {"Convertendo Try Parse - EstruturaDeControle", ConvertendoTryParse.Executar},
+
+                // Estrutura de Controle
+                
+
             });
 
             central.SelecionarEExecutar();
