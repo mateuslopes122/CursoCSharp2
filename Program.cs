@@ -16,7 +16,8 @@ namespace CursoCSharp {
                 {"Atividade1 - Fundamentos", Atividade1.Executar },
                 {"Atividade2 - Fundamentos", Atividade2.Executar },
                 {"Convertendo Try Parse - EstruturaDeControle", ConvertendoTryParse.Executar},
-
+                {"Executar Switch - EstruturaDeControle", ExecutarSwitch.Executar},
+                {"Estrutura While e For - EstruturaDeControle", EstruturaWhileEFor.Executar},
                 // Estrutura de Controle
                 
 
