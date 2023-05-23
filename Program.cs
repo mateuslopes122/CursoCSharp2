@@ -22,7 +22,8 @@ namespace CursoCSharp {
                 {"Estrutua de Repetição - EstruturaDeRepeticao", AtvidadeEstruturaDeRepeticao.Executar},
                 {"Estrutua de Foreach - EstruturaForeach", EstruturaForech.Executar},
                 {"Classes e Métodos - ", EstruturaForech.Executar},
-
+                {"Classes e Métodos - ", Construtor.Executar},
+                {"Classes e Métodos - ", Construtores.Executar},
                 // Estrutura de Controle
 
                 //classes e métodos
