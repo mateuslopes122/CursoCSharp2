@@ -9,7 +9,7 @@ namespace CursoCSharp.ClassesEMetodos
     class Carro
     {
 
-        public string Cambio;
+        /*public string Cambio;
         public string Motor;
 
         public string Locomover()
@@ -20,6 +20,6 @@ namespace CursoCSharp.ClassesEMetodos
         public void LocomoverConsole()
         {
             Console.WriteLine(Locomover());
-        }
+        }*/
     }
 }

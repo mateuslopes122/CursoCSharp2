@@ -22,13 +22,12 @@ namespace CursoCSharp {
                 {"Estrutua de Repetição - EstruturaDeRepeticao", AtvidadeEstruturaDeRepeticao.Executar},
                 {"Estrutua de Foreach - EstruturaForeach", EstruturaForech.Executar},
                 {"Classes e Métodos - ", EstruturaForech.Executar},
-                {"Classes e Métodos - ", Construtor.Executar},
-                {"Classes e Métodos - ", Construtores.Executar},
-                // Estrutura de Controle
-
-                //classes e métodos
-
+               // {"Classes e Métodos - ", Construtor.Executar},
                 {"Classes e Métodos - ClassesEMetodos", Membros.Executar},
+                {"Classes e Métodos - Construtores", Construtores.Executar},
+                {"Classes e Métodos - Metodos Com Retorno", MetodosComRetorno.Executar},
+                {"Classes e Métodos - Exercicios Metodos Com Retorno", ExerciciosMetodosComRetorno.Executar},
+                {"Classes e Métodos - Metodos Estáticos", MetodosEstaticos.Executar},
 
 
             });

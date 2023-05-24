@@ -24,6 +24,13 @@ namespace CursoCSharp.ClassesEMetodos
             Endereco = endereco;
             Idade = idade;
         }
+
+        //criando construtor padrão
+
+        public Cliente()
+        {
+
+        }
     }
 
 
@@ -42,8 +49,21 @@ namespace CursoCSharp.ClassesEMetodos
             cliente1.Endereco = "Vila Pires";
             cliente1.Idade = 70;
 
+            //outra forma de chamar o contrutor
+            var cliente2 = new Cliente("Rogério Ceni", "12345698710", "M", "Ramiro Coerleoni", 40);
+
+            var cliente3 = new Cliente()
+            {
+                Nome = "Amanda",
+                Sexo = "F",
+                Endereco = "Avenida Portugal",
+                Idade = 25
+
+            };
+
+            Console.WriteLine($"Olá {cliente2.Nome} você é o calvo e tem {cliente2.Idade} anos :(");
         }
     }
 }
 
-}
+

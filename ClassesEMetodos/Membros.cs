@@ -28,7 +28,7 @@ namespace CursoCSharp.ClassesEMetodos
             //chamando o método Aprensentar
             pessoa1.ApresentarnoConsole();*/
 
-            Carro peca1 = new Carro();
+            /*Carro peca1 = new Carro();
 
             peca1.Cambio = "está ruim";
             peca1.Motor = "queboru";
@@ -36,7 +36,7 @@ namespace CursoCSharp.ClassesEMetodos
             Console.WriteLine($"Seu cambio {peca1.Cambio}") ;
             Console.WriteLine($"Seu motor {peca1.Motor} \n");
 
-            peca1.LocomoverConsole();
+            peca1.LocomoverConsole();*/
 
         }
     }

@@ -8,5 +8,9 @@ namespace CursoCSharp.ClassesEMetodos
 {
     class Construtor
     {
+     /*   public static void Executar()
+        {
+
+        }*/
     }
 }
