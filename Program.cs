@@ -28,7 +28,11 @@ namespace CursoCSharp {
                 {"Classes e Métodos - Metodos Com Retorno", MetodosComRetorno.Executar},
                 {"Classes e Métodos - Exercicios Metodos Com Retorno", ExerciciosMetodosComRetorno.Executar},
                 {"Classes e Métodos - Metodos Estáticos", MetodosEstaticos.Executar},
-
+                {"Classes e Métodos - Get Set", GetSet.Executar},
+                {"Classes e Métodos - Params", Params.Executar},
+                {"Classes e Métodos - Get e Set Segundo Exemplo", GetESetSgundoExemplo.Executar},
+                {"Classes e Métodos - Exercicio 1", Exercicio1.Executar},
+                {"Classes e Métodos - Exercicio 2", Exercicio2.Executar},
 
             });
 
