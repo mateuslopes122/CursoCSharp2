@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CursoCSharp.ClassesEMetodos
 {
-    class ExerciciosGetESet
+    class Exercicio1
     {
 
         
