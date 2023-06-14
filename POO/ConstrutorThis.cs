@@ -7,31 +7,30 @@ using System.Threading.Tasks;
 namespace CursoCSharp.POO
 {
     class ConstrutorThis
-    {
-
+    {   
         public class Animal
         {
             public string Nome { get; set; }
+
 
             public Animal(string nome)
             {
                 Nome = nome;
             }
 
-            
         }
-        
         public class Cachorro : Animal
         {
             public double Altura { get; set; }
 
             public Cachorro(string nome) : base(nome)
             {
-                Console.WriteLine($"Cachoro {nome} foi iniciado");
+                Console.WriteLine($"Cachorro{nome} foi iniciado");
             }
-            /*aqui estou usando o this para chamamar o contrutor (nome)
-             * da propria classe que é do Cachorro, porém esse nome
-             * foi pegado da herança de animal*/
+
+            /** Aqui estou usando o this para chamar o construtor (nome)
+             * da propria classe que é do Cachorro, pórem esse nome
+             * foi pegado da herença de animal */
             public Cachorro(string nome, double altura) : this(nome)
             {
                 Altura = altura;
@@ -43,10 +42,11 @@ namespace CursoCSharp.POO
             }
         }
 
+
         public static void Executar()
         {
             var cleiton = new Cachorro("Cleiton");
-            var maxwell = new Cachorro("Maxwell", 40.0);
+            var maxwell = new Cachorro("maxwell",40.0);
 
             Console.WriteLine(cleiton);
             Console.WriteLine(maxwell);

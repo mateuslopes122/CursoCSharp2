@@ -45,7 +45,8 @@ namespace CursoCSharp {
                 //POO
                 {"POO - Herença", Heranca.Executar},
                 {"POO - Copntrutor This", ConstrutorThis.Executar},
-                {"POO - Encapsulamento", Encapsulamento.Executar},
+                {"POO - Encapsulamento",POO.Encapsulamento.Executar}, 
+                {"POO - Abstração", Abstracao.Executar},
 
             });
 

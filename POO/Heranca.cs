@@ -4,33 +4,34 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
 namespace CursoCSharp.POO
 {
     class Heranca
-    {
-
-        public class Carro
+    {   
+       //Criar class Carro
+      public class Carro
         {
-            protected readonly int VelocidadeMaxima;
-            //a velocidade maxima será transmitida por herença
-            //por isso que estamos usando o protected
+           protected readonly int VelocidadeMaxima;
+            //A variavel velocidademaxima será transmitida por herança
+            //por isso estamos usando o protected
             int VelocidadeAtual;
 
-            //criando o contrutor de carro
-            public Carro(int velocidadeMaxima)
+
+        public Carro (int velocidadeMaxima)
             {
                 VelocidadeMaxima = velocidadeMaxima;
             }
 
-            //criando método para acelerar o carro
-            protected int AlterarVelocidade(int delta)
+
+        //criando método para acelerar o carro
+        protected int AlterarVelocidade (int delta)
             {
                 int novaVelocidade = VelocidadeAtual + delta;
-                if (novaVelocidade < 0)
+                if (novaVelocidade<0)
                 {
                     VelocidadeAtual = 0;
-                } else if (novaVelocidade > VelocidadeMaxima)
+                }
+                else if (novaVelocidade > VelocidadeMaxima)
                 {
                     VelocidadeAtual = VelocidadeMaxima;
                 }
@@ -41,6 +42,7 @@ namespace CursoCSharp.POO
 
                 return VelocidadeAtual;
             }
+
             public int Acelerar()
             {
                 return AlterarVelocidade(5);
@@ -50,54 +52,79 @@ namespace CursoCSharp.POO
             {
                 return AlterarVelocidade(-5);
             }
-        }
-
+       }
+        
         public class Uno : Carro
-        {
-            /* o número de 200 que está entre base () 
-             significa a velocidadeMaxima que foi herdade de carro
-            usamos base para nao precisar fazer o contrutor novamente*/
-            public Uno() : base(300)
+        {/** O numero 380 que está entre base()
+            signifiaca a velocidadeMaxima que foi  herdado
+            de carro usamos base para não precisar utilizar o
+            construtor novamente
+          */
+            public Uno() : base(380)
             {
 
             }
         }
 
-        public class CorsaWind : Carro
+        public class GTR : Carro
         {
-            public CorsaWind() : base(400)
-            {
-
+            public GTR() : base(450)
+            { 
+                
             }
+            
+
         }
 
-
-
-
-    public static void Executar()
-            {
-                Console.WriteLine("Uno...");
-                //intanciar carro1 em Uno
-                Uno carro1 = new Uno();
-
-                Console.WriteLine(carro1.Acelerar());
-                Console.WriteLine(carro1.Acelerar());
-                Console.WriteLine(carro1.Acelerar());
-                Console.WriteLine(carro1.Acelerar());
-                Console.WriteLine(carro1.Acelerar());
-                Console.WriteLine(carro1.Frear());
-            Console.WriteLine("\n");
-
-            //instaciar carro2 em CorsaWind
-            CorsaWind carro2 = new CorsaWind();
-
-            Console.WriteLine("CorsaWind...");
-            Console.WriteLine(carro2.Acelerar());
-            Console.WriteLine(carro2.Acelerar());
-            Console.WriteLine(carro2.Acelerar());
-            Console.WriteLine(carro2.Acelerar());
+        public static void Executar()
+        {
+            Console.WriteLine("Uno..");
+            //instanciar carro1 em uno
+            Uno carro1 = new Uno();
+            Console.WriteLine(carro1.Acelerar());
+            Console.WriteLine(carro1.Acelerar());
+            Console.WriteLine(carro1.Acelerar());
+            Console.WriteLine(carro1.Acelerar());
+            Console.WriteLine(carro1.Acelerar());
+            Console.WriteLine(carro1.Acelerar());
+            Console.WriteLine(carro1.Acelerar());
             Console.WriteLine(carro1.Frear());
 
+
+            Console.WriteLine("GODZILLA...\n");
+            GTR carro2 = new GTR();
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+
+
         }
     }
-    }
+}
