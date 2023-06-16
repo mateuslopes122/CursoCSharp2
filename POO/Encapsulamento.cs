@@ -37,8 +37,8 @@ namespace CursoCSharp.POO
 
 
 
-            new FilhoReconhecido().MeusAcessos();
-            new AmigoProximo().MeusAcessos();
+            /*new FilhoReconhecido().MeusAcessos();
+            new AmigoProximo().MeusAcessos();*/
 
 
 

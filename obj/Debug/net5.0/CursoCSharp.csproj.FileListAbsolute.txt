@@ -30,3 +30,6 @@ C:\Users\mateus.slopes8\source\repos\CursoCSharp\obj\Debug\net5.0\CursoCSharp.dl
 C:\Users\mateus.slopes8\source\repos\CursoCSharp\obj\Debug\net5.0\ref\CursoCSharp.dll
 C:\Users\mateus.slopes8\source\repos\CursoCSharp\obj\Debug\net5.0\CursoCSharp.pdb
 C:\Users\mateus.slopes8\source\repos\CursoCSharp\obj\Debug\net5.0\CursoCSharp.genruntimeconfig.cache
+C:\Users\mateus.slopes8\source\repos\CursoCSharp\bin\Debug\net5.0\Encapsulamento.dll
+C:\Users\mateus.slopes8\source\repos\CursoCSharp\bin\Debug\net5.0\Encapsulamento.pdb
+C:\Users\mateus.slopes8\source\repos\CursoCSharp\obj\Debug\net5.0\CursoCSharp.csproj.CopyComplete
